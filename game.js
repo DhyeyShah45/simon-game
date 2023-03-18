@@ -65,7 +65,7 @@ function wrong() {
     $("body").removeClass("game-over");
   }, 200);
   $("h1").text("Game Over, Press Any key to Restart");
-  var sound = new Audio("/sounds/wrong.mp3");
+  var sound = new Audio("./sounds/wrong.mp3");
   sound.play();
   reset();
 }
